@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+h2  {
+  color:white; 
+ 
+}
+
+h3 {
+  color:black;
+}
+
+p {
+  color:white;
+}
+
+.header {
+  background: url(../images/universeEnigma.jpg) ;
+  padding-top:150px;
+  text-align: center;
+  margin-top: 71px;
+
+ 
+
+}
+
+#constante{
+text-align: center;
+color: white;
+margin-bottom: 200px;
+
+margin-right: 300px;
+margin-left: 300px;
+
+
+}
+#navbar {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+  margin-top: -8px;
+  background-image: url(../images/universeEnigma.jpg) ;
+
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.sticky+.content {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+
+
+
+#contenedorfooter{
+  text-align: center;
+  height: -50px;
+  margin-top: 0px;
+  margin-bottom: -1px;
+  padding-top:90px;
+  background-image: url(../images/universeEnigma.jpg);
+}
+
+
+
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+#lineas{
+  display: inline;
+  position: absolute;
+  background-color: white;
+  width: 120px;
+  height: 3px;
+}
+
